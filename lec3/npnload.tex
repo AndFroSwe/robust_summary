@@ -1,0 +1,11 @@
+\begin{circuitikz} \draw
+    (0,0) node[npn, yscale=1] (npn) {}
+    (npn.base) node[anchor=east] {B}
+    (npn.collector) node[anchor=east] {C}
+    (npn.emitter) node[anchor=east] {E}
+    (0,3) node[anchor=south] {$Vcc$}
+        to[generic, l=load] (npn.collector)
+    (0,-1) node[ground] {}
+        -- (npn.emitter)
+;
+\end{circuitikz}

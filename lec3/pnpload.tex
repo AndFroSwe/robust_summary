@@ -1,0 +1,11 @@
+\begin{circuitikz} \draw
+    (0,0) node[pnp, yscale=1] (pnp) {}
+    (pnp.base) node[anchor=east] {B}
+    (pnp.collector) node[anchor=east] {C}
+    (pnp.emitter) node[anchor=east] {E}
+    (0,1) node[anchor=south] {$Vcc$}
+        -- (pnp.emitter)
+    (0,-3) node[ground] {}
+        to[generic, l=load] (pnp.collector)
+;
+\end{circuitikz}
