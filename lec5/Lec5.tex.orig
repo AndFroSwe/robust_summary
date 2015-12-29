@@ -32,6 +32,11 @@ predefined limit, often 5\%, is called \textit{settling time}. The delay before 
 signal reaches 10\% of its max is called $time delat$ and the $overshoot$
 indicates the absolute maximum value the signal reaches relatively to the steady
 state value.
+<<<<<<< HEAD
+\subsubsection*{Discrete vs continuous filters}
+Describing a filter in continuous time is done using Laplace transformation,
+defined 
+=======
 \subsection*{Discrete vs continuous filters}
 Describing a filter in continuous time is done using Laplace transformation.
 Laplace transform is given by the equation
@@ -57,3 +62,4 @@ created and there are many types of filters easily available such as FIR filters
 (no denominator), Chebyshev, Butterworth and Bessel filters.
 
 
+>>>>>>> 6708e5b8518ba633e648618ba3f28f6b51666130

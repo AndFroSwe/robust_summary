@@ -1,11 +1,18 @@
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.27)  29 DEC 2015 13:42
+entering extended mode
+**main.tex
+(main.tex
+LaTeX2e <2015/01/01> patch level 2
+=======
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.16)  17 DEC 2015 11:45
 entering extended mode
 **./main.tex
 (main.tex
 LaTeX2e <2015/10/01> patch level 2
+>>>>>>> 6708e5b8518ba633e648618ba3f28f6b51666130
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)

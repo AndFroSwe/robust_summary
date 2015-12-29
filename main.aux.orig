@@ -34,7 +34,10 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces N-type FET run in enhancement mode.\relax }}{8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces N-type FET run in depletion mode.\relax }}{8}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Filters}{9}}
+<<<<<<< HEAD
+=======
 \newlabel{eq:laplace}{{9}{9}}
 \newlabel{eq:ztransform}{{12}{10}}
 \newlabel{eq:zshift}{{13}{10}}
 \newlabel{eq:zlaplace}{{14}{10}}
+>>>>>>> 6708e5b8518ba633e648618ba3f28f6b51666130
