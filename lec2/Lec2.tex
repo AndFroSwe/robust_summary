@@ -1,29 +1,29 @@
-    There are two types of regulators: \textit{switching} and \textit{linear}. In
-    linear regulators, voltage is regulated via feedback controls. Can only handle
-    voltage-dropping applicatins. They are not very efficient but are noise free.
-    \newline
-    Switching regulators use transistors transfer energy via over inductors or
-    capacitors. This kind of regulator are much more efficient than the linear type
-    but also generate noise.
+There are two types of regulators: \textit{switching} and \textit{linear}. In
+linear regulators, voltage is regulated via feedback controls. Can only handle
+voltage-dropping applicatins. They are not very efficient but are noise free.
+\newline
+Switching regulators use transistors transfer energy via over inductors or
+capacitors. This kind of regulator are much more efficient than the linear type
+but also generate noise.
 
-    \subsection*{Linear regulators}
-    There are two types of linear regulator, shunt and series-pass.
-    \subsubsection*{Shunt regulator}
-    A shunt regulator uses a zener diode to regulate ouput voltage. It utilizes the
-    fact that a zener diode allows back current when subjectet to a voltage above
-    the \textit{zener voltage}, $V_z$. In the shunt regulator, $V_z=V_{out}$. This
-    type of regulator has a number of drawbacks, namely
-    \begin{itemize}
-        \item $V_{out}$ cannot easily be chosen, it depends on available types of
-    zener diodes.
-        \item $V_z$ changes with input voltage, $V_+$ and zener current, $I_z$. This
-    is given by the equation
-    \begin{equation}
-        I_z=\frac{V_+ - V_z} {R}
-    \end{equation}
-    \item Since $I_z$ must be chosen to be large enough, using $R$, the voltage
+\subsection*{Linear regulators}
+There are two types of linear regulator, shunt and series-pass.
+\subsubsection*{Shunt regulator}
+A shunt regulator uses a zener diode to regulate ouput voltage. It utilizes the
+fact that a zener diode allows back current when subjectet to a voltage above
+the \textit{zener voltage}, $V_z$. In the shunt regulator, $V_z=V_{out}$. This
+type of regulator has a number of drawbacks, namely
+\begin{itemize}
+    \item $V_{out}$ cannot easily be chosen, it depends on available types of
+zener diodes.
+    \item $V_z$ changes with input voltage, $V_+$ and zener current, $I_z$. This
+is given by the equation
+\begin{equation}
+    I_z=\frac{V_+ - V_z} {R}
+\end{equation}
+\item Since $I_z$ must be chosen to be large enough, using $R$, the voltage
 source is running at full current all the time.
-    \item A high power zener is required to accommodate large load currents.
+\item A high power zener is required to accommodate large load currents.
 \end{itemize}
 The diagram for the shunt regulator is displayed in Figure~\ref{fig:shunt}
 \begin{figure}[H]
@@ -141,7 +141,7 @@ minimum and the maximum current over the switch, $\Delta I$,
 The switching is shown in Figure~\ref{fig:buckswitch}
 \begin{figure}[H]
     \centering
-    \includegraphics[height=3cm]{./lec2/buckswitch.jpg}
+    \includegraphics[height=3cm]{./figures/buckswitch.jpg}
     \caption{Swithcing of Buck regulator}
     \label{fig:buckswitch}
 \end{figure}
