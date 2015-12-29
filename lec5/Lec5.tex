@@ -5,30 +5,55 @@ describe the different filters characteristics, certain critera are examined.
 Filtering might be needed to filter out noise from quantization(resolution),
 mechanical noise and noise from electric disturbanses.
 \subsection*{Filter characteristics}
-Performance of a filter can be viewed from two different domains, the $frequency
-domain$ and the $time domain$. These are interconnected and are both used,
+Performance of a filter can be viewed from two different domains, the \textit{frequency
+domain} and the \textit{time domain}. These are interconnected and are both used,
 though for general description of a filter, most often the frequency domain is
 used.
 \subsubsection*{Frequency domain characteristics}
 The frequency domain contains information on how the signal through a filter is
 attenuated at different frequencies, as well as how the singals phase is
-shifted, called $phase shift$. Most commonly, the frequency domain is reached by
-$Laplace transformation$ to the variable $s$, though the $Fourier transform$
+shifted, called \textit{phase shift}. Most commonly, the frequency domain is reached by
+\textit{Laplace transformation} to the variable $s$, though the \textit{Fourier
+transform}
 might also be used. $s$ represents the the complex frequency $j\omega$. The
 cutoff requency $f_c$ is described as the frequency at which the signal has
-dropped by 3dB. Before $f_c$ is the $passband$ and after comes the $transition
-region$ which stops at the $stop band$, defined by some minimum attenuarion, for
-example 40 dB. The earlier described $phase shift$ is important because when
+dropped by 3dB. Before $f_c$ is the $passband$ and after comes the \textit{transition
+region} which stops at the \textit{stop band}, defined by some minimum attenuarion, for
+example 40 dB. The earlier described \textit{phase shift} is important because when
 different frequencies of a signal don't have the same phase shift, the waveform
 might come out distorted.
 \subsubsection*{Time domain characteristics}
 The time domain describes the behaviour of the output signal when different
-functions such as step and ramp are run through the filter. These include $rise
-time$, the time it takes for the signal to go between 10\% and 90\% of its
+functions such as step and ramp are run through the filter. These include
+\textit{rise
+time}, the time it takes for the signal to go between 10\% and 90\% of its
 maximum value. The time before the signal settles indefinitely within a
-predefined limit, often 5\%, is called $settling time$. The delay before the
+predefined limit, often 5\%, is called \textit{settling time}. The delay before the
 signal reaches 10\% of its max is called $time delat$ and the $overshoot$
 indicates the absolute maximum value the signal reaches relatively to the steady
 state value.
-\subsubsection*{Discrete vs continuous filters}
-Describing a filter in continuous time is done using Laplace transformation. 
+\subsection*{Discrete vs continuous filters}
+Describing a filter in continuous time is done using Laplace transformation.
+Laplace transform is given by the equation
+\input{./equations/laplace}
+and this has the important properties that integration equals to 
+\input{./equations/laplaceint}
+and derivation to
+\input{./equations/laplaceder}
+In the discrete case, the \textit{z-transform} is used. This is defined as
+\input{./equations/ztransform}
+with the the important shift property, 
+\input{./equations/zshift}
+The z-transform and Laplace are related by
+\input{./equations/zlaplace}
+The type of modeling of the filter depends on the implementation. Continuous
+time filters are generally used when designing analog filters and is a quick way
+of creating low order filters. Laplace modeling gives a quick understanding of
+the signal properties in time. 
+\newline
+Discrete filter design on the other hand is mainly used when designing digital
+filters. Since it is done using a computer, higher order filters can easily be
+created and there are many types of filters easily available such as FIR filters
+(no denominator), Chebyshev, Butterworth and Bessel filters.
+
+
