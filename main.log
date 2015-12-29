@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.27)  29 DEC 2015 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.27)  29 DEC 2015 19:36
 entering extended mode
 **main.tex
 (main.tex
@@ -1042,17 +1042,34 @@ Package pdftex.def Info: ./figures/FIG_pcbcrossantenna.png used on input line 5
 LaTeX Warning: Reference `fig:pcbcrossantenna' on page 12 undefined on input li
 ne 53.
 
-) [12 <./figures/FIG_rodantenna.png> <./figures/FIG_loopantenna.png>] [13 <./fi
-gures/FIG_pcbcrossantenna.png>] (main.aux)
+[12 <./figures/FIG_rodantenna.png> <./figures/FIG_loopantenna.png>]
+
+LaTeX Warning: Reference `fig:couplingmodes' on page 13 undefined on input line
+ 64.
+
+<./figures/FIG_couplingmodes.png, id=75, 470.25688pt x 216.30812pt>
+File: ./figures/FIG_couplingmodes.png Graphic file (type png)
+
+<use ./figures/FIG_couplingmodes.png>
+Package pdftex.def Info: ./figures/FIG_couplingmodes.png used on input line 67.
+
+(pdftex.def)             Requested size: 235.12787pt x 108.1538pt.
+
+
+LaTeX Warning: Reference `fig:couplingmodes' on page 13 undefined on input line
+ 69.
+
+) [13 <./figures/FIG_pcbcrossantenna.png> <./figures/FIG_couplingmodes.png>]
+(main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 29427 strings out of 493673
- 672660 string characters out of 3141523
+ 29433 strings out of 493673
+ 672843 string characters out of 3141523
  731053 words of memory out of 3000000
- 32369 multiletter control sequences out of 15000+200000
+ 32374 multiletter control sequences out of 15000+200000
  9322 words of font info for 35 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  64i,14n,56p,10399b,1565s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1071,9 +1088,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on main.pdf (14 pages, 1485167 bytes).
+Output written on main.pdf (14 pages, 1605989 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
+ 129 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

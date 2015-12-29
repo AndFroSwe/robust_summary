@@ -15,7 +15,7 @@ Conducted Emission (CE). The frequencies of these emissions and immunities have
 shifted over the years to a point where both emission and the receptability of
 disturbances are now in the same area. This is described called the
 \textit{Compatibility funnel}.
-\subsubsection*{Coupling modes}
+\subsubsection*{Signal traces}
 A circuit with contains a changing current becomes an antenna, emitting electro
 magnetic waves. There are several types of antenna, three of wich are shown
 below. 
@@ -52,4 +52,24 @@ return route, causing a loop antenna and therefore reducing its EMC.
 \caption{A loop antenna in a two-layer PCB.}
 \ref{fig:pcbcrossantenna}
 \end{figure}
+The best solution is to not cut in the ground plane, thus leaving the return
+paths as untouched as possible. It is also important to avoid sharp edges in the
+signal trace since this causes reflection and radiation. 
+\subsubsection*{Coupling modes}
+The voltage differences within a circuit are called \textit{Differential mode}
+voltages. These are normal and cause the current to flow in the closed circuit.
+When the voltages within the circuit change together is called \textit{Common
+mode}. This causes the current to flow in the same direction in all cables and
+is present even when there is no visible connection to the surroundings. Common
+and differential modes is displayed in Figure~\ref{fig:couplingmodes}.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{./figures/FIG_couplingmodes.png}
+\caption{Different coupling modes.}
+\ref{fig:couplingmodes}
+\end{figure}
+Because the common mode current is dependant on the common mode impedance,
+sometimes grounding is not desired since a lower impedance causes a higher
+current. 
+
 
