@@ -1,11 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.16)  17 DEC 2015 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.27)  29 DEC 2015 17:35
 entering extended mode
-**./main.tex
+**main.tex
 (main.tex
-LaTeX2e <2015/10/01> patch level 2
+LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -736,7 +735,6 @@ Package: translator 2010/06/12 ver 1.10
 -language-mappings.tex")))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\circuitikz1.code.tex
 "
-<<<<<<< HEAD
 \pgf@circ@res@up=\dimen200
 \pgf@circ@res@down=\dimen201
 \pgf@circ@res@zero=\dimen202
@@ -746,17 +744,6 @@ Package: translator 2010/06/12 ver 1.10
 \pgf@circ@res@step=\dimen206
 \pgf@circ@res@temp=\dimen207
 \pgfstartlinewidth=\dimen208
-=======
-\pgf@circ@res@up=\dimen256
-\pgf@circ@res@down=\dimen257
-\pgf@circ@res@zero=\dimen258
-\pgf@circ@res@left=\dimen259
-\pgf@circ@res@right=\dimen260
-\pgf@circ@res@other=\dimen261
-\pgf@circ@res@step=\dimen262
-\pgf@circ@res@temp=\dimen263
-\pgfstartlinewidth=\dimen264
->>>>>>> 6708e5b8518ba633e648618ba3f28f6b51666130
 )) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
 Package: subcaption 2015/09/15 v1.1-100 Sub-captions (AR)
 
@@ -766,13 +753,13 @@ Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen265
-\captionmargin@=\dimen266
-\captionwidth=\dimen267
-\caption@tempdima=\dimen268
-\caption@indent=\dimen269
-\caption@parindent=\dimen270
-\caption@hangindent=\dimen271
+\captionmargin=\dimen209
+\captionmargin@=\dimen210
+\captionwidth=\dimen211
+\caption@tempdima=\dimen212
+\caption@indent=\dimen213
+\caption@parindent=\dimen214
+\caption@hangindent=\dimen215
 )
 \c@ContinuedFloat=\count156
 Package caption Info: float package is loaded.
@@ -785,11 +772,6 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
 ))
 (main.aux)
-<<<<<<< HEAD
-=======
-\openout1 = `main.aux'.
-
->>>>>>> 6708e5b8518ba633e648618ba3f28f6b51666130
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -805,13 +787,13 @@ LaTeX Font Info:    ... okay on input line 4.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count159
-\scratchdimen=\dimen272
+\scratchdimen=\dimen216
 \scratchbox=\box61
 \nofMPsegments=\count160
 \nofMParguments=\count161
 \everyMPshowfont=\toks33
 \MPscratchCnt=\count162
-\MPscratchDim=\dimen273
+\MPscratchDim=\dimen217
 \MPnumerator=\count163
 \makeMPintoPDFobject=\count164
 \everyMPtoPDFconversion=\toks34
@@ -836,46 +818,26 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 4.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 \c__siunitx_mathtt_int=\count166
-<<<<<<< HEAD
- <./figures/wall-e.jpg, id=4, 441.65pt x 335.2525pt>
+
+<./figures/wall-e.jpg, id=4, 441.65pt x 335.2525pt>
 File: ./figures/wall-e.jpg Graphic file (type jpg)
-
-<use ./figures/wall-e.jpg>
+ <use ./figures/wall-e.jpg>
 Package pdftex.def Info: ./figures/wall-e.jpg used on input line 11.
-=======
-
-<wall-e.jpg, id=4, 441.65pt x 335.2525pt>
-File: wall-e.jpg Graphic file (type jpg)
- <use wall-e.jpg>
-Package pdftex.def Info: wall-e.jpg used on input line 11.
->>>>>>> 6708e5b8518ba633e648618ba3f28f6b51666130
 (pdftex.def)             Requested size: 309.15288pt x 234.67514pt.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
 
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-=======
-{C:/Users/FroderbergPC/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./wa
-ll-e.jpg>]
-(lec2/lec2.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
->>>>>>> 6708e5b8518ba633e648618ba3f28f6b51666130
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
  [1
 
-<<<<<<< HEAD
 {C:/Users/Andreas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figures
 /wall-e.jpg>]
 (lec2/lec2.tex
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 37.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
-=======
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
->>>>>>> 6708e5b8518ba633e648618ba3f28f6b51666130
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
@@ -891,13 +853,8 @@ LaTeX Warning: Reference `fig:buck' on page 2 undefined on input line 98.
 
 LaTeX Warning: Reference `fig:buck' on page 2 undefined on input line 118.
 
-<<<<<<< HEAD
 [2] <./figures/buckswitch.jpg, id=26, 2076.75874pt x 1803.73875pt>
 File: ./figures/buckswitch.jpg Graphic file (type jpg)
-=======
-[2] <./lec2/buckswitch.jpg, id=26, 2076.75874pt x 1803.73875pt>
-File: ./lec2/buckswitch.jpg Graphic file (type jpg)
->>>>>>> 6708e5b8518ba633e648618ba3f28f6b51666130
 
 <use ./figures/buckswitch.jpg>
 Package pdftex.def Info: ./figures/buckswitch.jpg used on input line 144.
@@ -993,7 +950,6 @@ Underfull \hbox (badness 5563) in paragraph at lines 213--213
 []|\OT1/cmr/m/n/10 Polar, Dry:
  []
 
-<<<<<<< HEAD
 [4]) [5] (lec3/Lec3.tex (circuits/npn.tex) (circuits/pnp.tex)
 (circuits/npndiode.tex) (circuits/pnpdiode.tex) (circuits/npnload.tex)
 (circuits/pnpload.tex) [6
@@ -1004,18 +960,6 @@ LaTeX Warning: Reference `enhancement' on page 7 undefined on input line 100.
 
 <./figures/enhancement.png, id=41, 148.555pt x 113.42375pt>
 File: ./figures/enhancement.png Graphic file (type png)
-=======
-[4]) [5] (lec3/Lec3.tex (lec3/npn.tex) (lec3/pnp.tex) (lec3/npndiode.tex)
-(lec3/pnpdiode.tex) (lec3/npnload.tex) (lec3/pnpload.tex) [6
-
-] (lec3/nMOS.tex)
-(lec3/pMOS.tex)
-
-LaTeX Warning: Reference `enhancement' on page 7 undefined on input line 100.
-
-<./lec3/enhancement.png, id=41, 148.555pt x 113.42375pt>
-File: ./lec3/enhancement.png Graphic file (type png)
->>>>>>> 6708e5b8518ba633e648618ba3f28f6b51666130
 
 <use ./figures/enhancement.png>
 Package pdftex.def Info: ./figures/enhancement.png used on input line 104.
@@ -1029,13 +973,8 @@ LaTeX Warning: Reference `fig:enhancement' on page 7 undefined on input line 10
 
 LaTeX Warning: Reference `depletion' on page 8 undefined on input line 108.
 
-<<<<<<< HEAD
 <./figures/depletion.png, id=46, 148.555pt x 113.42375pt>
 File: ./figures/depletion.png Graphic file (type png)
-=======
-<./lec3/depletion.png, id=46, 148.555pt x 113.42375pt>
-File: ./lec3/depletion.png Graphic file (type png)
->>>>>>> 6708e5b8518ba633e648618ba3f28f6b51666130
 
 <use ./figures/depletion.png>
 Package pdftex.def Info: ./figures/depletion.png used on input line 112.
@@ -1045,77 +984,96 @@ Package pdftex.def Info: ./figures/depletion.png used on input line 112.
 LaTeX Warning: Reference `fig:depletion' on page 8 undefined on input line 114.
 
 
-<<<<<<< HEAD
 ) [8 <./figures/enhancement.png> <./figures/depletion.png>] (lec5/Lec5.tex
-Overfull \hbox (29.50145pt too wide) in paragraph at lines 8--12
-\OT1/cmr/m/n/10 Performance of a fil-ter can be viewed from two dif-fer-ent do-
-mains, the $\OML/cmm/m/it/10 frequencydomain$
- []
-
-) [9
-
-] (main.aux)
-=======
-) [8 <./lec3/enhancement.png> <./lec3/depletion.png>] (lec5/Lec5.tex
 (equations/laplace.tex) (equations/laplaceint.tex) (equations/laplaceder.tex)
 (equations/ztransform.tex [9
 
-]) (equations/zshift.tex) (equations/zlaplace.tex)) [10] (main.aux)
->>>>>>> 6708e5b8518ba633e648618ba3f28f6b51666130
+]) (equations/zshift.tex) (equations/zlaplace.tex)) [10] (lec6/Lec6.tex
+<./figures/FIG_dipoleantenna.png, id=61, 298.61563pt x 132.99687pt>
+File: ./figures/FIG_dipoleantenna.png Graphic file (type png)
+
+<use ./figures/FIG_dipoleantenna.png>
+Package pdftex.def Info: ./figures/FIG_dipoleantenna.png used on input line 25.
+
+(pdftex.def)             Requested size: 298.6149pt x 132.99654pt.
+
+
+LaTeX Warning: Reference `fig:dipoleantenna' on page 11 undefined on input line
+ 27.
+
+<./figures/FIG_rodantenna.png, id=62, 610.28pt x 378.41376pt>
+File: ./figures/FIG_rodantenna.png Graphic file (type png)
+
+<use ./figures/FIG_rodantenna.png>
+Package pdftex.def Info: ./figures/FIG_rodantenna.png used on input line 31.
+(pdftex.def)             Requested size: 183.0854pt x 113.525pt.
+
+
+LaTeX Warning: Reference `fig:rodantenna' on page 11 undefined on input line 33
+.
+
+<./figures/FIG_loopantenna.png, id=63, 482.30188pt x 328.72812pt>
+File: ./figures/FIG_loopantenna.png Graphic file (type png)
+
+<use ./figures/FIG_loopantenna.png>
+Package pdftex.def Info: ./figures/FIG_loopantenna.png used on input line 37.
+(pdftex.def)             Requested size: 144.69168pt x 98.61919pt.
+
+
+LaTeX Warning: Reference `fig:loopantenna' on page 11 undefined on input line 3
+9.
+
+[11
+
+ <./figures/FIG_dipoleantenna.png>]
+
+LaTeX Warning: Reference `fig:pcbcrossantenna' on page 12 undefined on input li
+ne 46.
+
+<./figures/FIG_pcbcrossantenna.png, id=68, 353.82187pt x 233.87375pt>
+File: ./figures/FIG_pcbcrossantenna.png Graphic file (type png)
+
+<use ./figures/FIG_pcbcrossantenna.png>
+Package pdftex.def Info: ./figures/FIG_pcbcrossantenna.png used on input line 5
+1.
+(pdftex.def)             Requested size: 247.67361pt x 163.71048pt.
+
+
+LaTeX Warning: Reference `fig:pcbcrossantenna' on page 12 undefined on input li
+ne 53.
+
+) [12 <./figures/FIG_rodantenna.png> <./figures/FIG_loopantenna.png>] [13 <./fi
+gures/FIG_pcbcrossantenna.png>] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 29350 strings out of 493673
- 670956 string characters out of 3141523
- 730871 words of memory out of 3000000
- 32331 multiletter control sequences out of 15000+200000
- 8827 words of font info for 32 fonts, out of 3000000 for 9000
+ 29427 strings out of 493673
+ 672660 string characters out of 3141523
+ 731053 words of memory out of 3000000
+ 32369 multiletter control sequences out of 15000+200000
+ 9322 words of font info for 35 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  64i,14n,56p,10399b,1565s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Andreas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\tcrm1000.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmc
-sc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (10 pages, 1006029 bytes).
+sc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex
+10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on main.pdf (14 pages, 1485167 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
-=======
- 29394 strings out of 493634
- 671717 string characters out of 3141292
- 732203 words of memory out of 3000000
- 32385 multiletter control sequences out of 15000+200000
- 9322 words of font info for 35 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 64i,14n,56p,10401b,1565s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\FroderbergPC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\tcrm1000.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on main.pdf (11 pages, 1024419 bytes).
-PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
->>>>>>> 6708e5b8518ba633e648618ba3f28f6b51666130
+ 127 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,55 @@
 This lecture covers disturbances in electircal circuits, such as common mode
 current, Electro Magnetic Pulses and Electro Static Discharge. Distrurbances are
 gathered under the name Electro Magnetic Interference, or \textit{EMI}, and the
-amount of EMI a circuit generates is called Electro Magnetic Compatibility,
-\textit{EMX}. A good EMC means low or no interference. 
+amount of EMI a circuit generates is related to Electro Magnetic Compatibility,
+\textit{EMC}. A good EMC means low or no interference. 
+\newline
+EMP occurs during lightning strikes and nuclear blasts. The power of an EMP
+blast is very high but only lasts around 50 $\mu$s and does as such not contain much
+energy. 
+\subsubsection*{EMC Characteristics}
+EMC can be transferred to and from a system in two ways, radiation and
+conduction. A systems EMC characteristics are therefore divided into Radiated
+Emission (RE) and Radiated Immunity (RI) as well as Conducted Immunity (CI) and
+Conducted Emission (CE). The frequencies of these emissions and immunities have
+shifted over the years to a point where both emission and the receptability of
+disturbances are now in the same area. This is described called the
+\textit{Compatibility funnel}.
+\subsubsection*{Coupling modes}
+A circuit with contains a changing current becomes an antenna, emitting electro
+magnetic waves. There are several types of antenna, three of wich are shown
+below. 
+% Three figures of antennas
+\begin{figure}[H]
+\centering
+\includegraphics{./figures/FIG_dipoleantenna.png}
+\caption{A dipole antenna.}
+\ref{fig:dipoleantenna}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.3]{./figures/FIG_rodantenna.png}
+\caption{A rod antenna.}
+\ref{fig:rodantenna}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.3]{./figures/FIG_loopantenna.png}
+\caption{A loop antenna.}
+\ref{fig:loopantenna}
+\end{figure}
+If a the layout of a circuit is not designed properly, it might exhibit antenna
+like behaviour, leading to EMI. Especially loop antenna phenomenon are common in
+parts of a closed circuit where current is alternating frequently but there are
+also examples of dipole antenna behaviour. In general, it is desired to let the
+return current be able to run directly underneath the feed current line. This is
+what the current will do unless hindered. Figure~\ref{fig:pcbcrossantenna}
+displays a two-layer board where the return current is forced to take a longer
+return route, causing a loop antenna and therefore reducing its EMC.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{./figures/FIG_pcbcrossantenna}
+\caption{A loop antenna in a two-layer PCB.}
+\ref{fig:pcbcrossantenna}
+\end{figure}
+
