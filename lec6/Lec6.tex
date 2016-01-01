@@ -1,3 +1,4 @@
+
 This lecture covers disturbances in electircal circuits, such as common mode
 current, Electro Magnetic Pulses and Electro Static Discharge. Distrurbances are
 gathered under the name Electro Magnetic Interference, or \textit{EMI}, and the
@@ -63,13 +64,42 @@ mode}. This causes the current to flow in the same direction in all cables and
 is present even when there is no visible connection to the surroundings. Common
 and differential modes is displayed in Figure~\ref{fig:couplingmodes}.
 \begin{figure}[H]
-\centering
-\includegraphics[scale=0.7]{./figures/FIG_couplingmodes.png}
-\caption{Different coupling modes.}
-\ref{fig:couplingmodes}
+    \centering
+    \includegraphics[scale=0.7]{./figures/FIG_couplingmodes.png}
+    \caption{Different coupling modes.}
+    \ref{fig:couplingmodes}
 \end{figure}
 Because the common mode current is dependant on the common mode impedance,
 sometimes grounding is not desired since a lower impedance causes a higher
-current. 
+current. This is demonstrated in Figure~\ref{fig:commongrounding}.
+% Impedance when grounding a cable
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{./figures/FIG_commongrounding.png}
+\caption{Different coupling modes.}
+\ref{fig:couplingmodes}
+\end{figure}
+When calculating the interference the common mode current has on the
+differential mode current, the model in
+Figure~\ref{circ:commonimpedancecoupling} is useful.
+% Common impedance coupling scheme
+\input{./circuits/CIRC_commonimpedancecoupling.tex}
+For the interference, the following equation is true,
+% Equation for common impedance coupling
+\input{./equations/EQ_udminterference.tex}
+\begin{example}
+    For a circuit as in with
+    \begin{itemize}
+        \item $R_{in}=1\si{\mega\ohm}$
+        \item $R_{out}=1\si{\kilo\ohm}$
+        \item $U_{CM}=0.1\si{V}$
+    \end{itemize}
+    The Differential mode interference is
+    \begin{flalign*}
+        U_{DM}= \frac {U_{CM}R_{in}} {R_{out} + R_{in}} = \frac {0.1\cdot1}
+        {\num{1e3}\cdot\num{1e6}}=0.1\si{V}
+    \end{flalign*}
+\end{example}
+
 
 

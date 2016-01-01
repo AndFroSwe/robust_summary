@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.27)  29 DEC 2015 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.27)  1 JAN 2016 20:26
 entering extended mode
 **main.tex
 (main.tex
@@ -770,8 +770,67 @@ Package caption Info: float package is loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\jknappen\mathrsfs.sty"
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
-))
-(main.aux)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\framed\framed.sty"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip55
+\fb@frw=\dimen216
+\fb@frh=\dimen217
+\FrameRule=\dimen218
+\FrameSep=\dimen219
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen220
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count159
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count160
+\leftroot@=\count161
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count162
+\DOTSCASE@=\count163
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box61
+\strutbox@=\box62
+\big@size=\dimen221
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count164
+\c@MaxMatrixCols=\count165
+\dotsspace@=\muskip16
+\c@parentequation=\count166
+\dspbrk@lvl=\count167
+\tag@help=\toks33
+\row@=\count168
+\column@=\count169
+\maxfields@=\count170
+\andhelp@=\toks34
+\eqnshift@=\dimen222
+\alignsep@=\dimen223
+\tagshift@=\dimen224
+\tagwidth@=\dimen225
+\totwidth@=\dimen226
+\lineht@=\dimen227
+\@envbody=\toks35
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+\c@examplecounter=\count171
+) (main.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -784,19 +843,19 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count159
-\scratchdimen=\dimen216
-\scratchbox=\box61
-\nofMPsegments=\count160
-\nofMParguments=\count161
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count162
-\MPscratchDim=\dimen217
-\MPnumerator=\count163
-\makeMPintoPDFobject=\count164
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count172
+\scratchdimen=\dimen228
+\scratchbox=\box63
+\nofMPsegments=\count173
+\nofMParguments=\count174
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count175
+\MPscratchDim=\dimen229
+\MPnumerator=\count176
+\makeMPintoPDFobject=\count177
+\everyMPtoPDFconversion=\toks38
 ) ABD: EveryShipout initializing macros
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\tran
 slator-basic-dictionary\translator-basic-dictionary-English.dict"
@@ -808,16 +867,12 @@ File: siunitx-abbreviations.cfg 2015/10/15 v2.6m siunitx: Abbreviated units
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\c__siunitx_mathsf_int=\count165
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 4.
+\c__siunitx_mathsf_int=\count178
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 4.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-\c__siunitx_mathtt_int=\count166
+\c__siunitx_mathtt_int=\count179
 
 <./figures/wall-e.jpg, id=4, 441.65pt x 335.2525pt>
 File: ./figures/wall-e.jpg Graphic file (type jpg)
@@ -993,86 +1048,115 @@ LaTeX Warning: Reference `fig:depletion' on page 8 undefined on input line 114.
 File: ./figures/FIG_dipoleantenna.png Graphic file (type png)
 
 <use ./figures/FIG_dipoleantenna.png>
-Package pdftex.def Info: ./figures/FIG_dipoleantenna.png used on input line 25.
+Package pdftex.def Info: ./figures/FIG_dipoleantenna.png used on input line 26.
 
 (pdftex.def)             Requested size: 298.6149pt x 132.99654pt.
 
 
 LaTeX Warning: Reference `fig:dipoleantenna' on page 11 undefined on input line
- 27.
+ 28.
 
 <./figures/FIG_rodantenna.png, id=62, 610.28pt x 378.41376pt>
 File: ./figures/FIG_rodantenna.png Graphic file (type png)
 
 <use ./figures/FIG_rodantenna.png>
-Package pdftex.def Info: ./figures/FIG_rodantenna.png used on input line 31.
+Package pdftex.def Info: ./figures/FIG_rodantenna.png used on input line 32.
 (pdftex.def)             Requested size: 183.0854pt x 113.525pt.
 
 
-LaTeX Warning: Reference `fig:rodantenna' on page 11 undefined on input line 33
+LaTeX Warning: Reference `fig:rodantenna' on page 11 undefined on input line 34
 .
 
 <./figures/FIG_loopantenna.png, id=63, 482.30188pt x 328.72812pt>
 File: ./figures/FIG_loopantenna.png Graphic file (type png)
 
 <use ./figures/FIG_loopantenna.png>
-Package pdftex.def Info: ./figures/FIG_loopantenna.png used on input line 37.
+Package pdftex.def Info: ./figures/FIG_loopantenna.png used on input line 38.
 (pdftex.def)             Requested size: 144.69168pt x 98.61919pt.
 
 
-LaTeX Warning: Reference `fig:loopantenna' on page 11 undefined on input line 3
-9.
+LaTeX Warning: Reference `fig:loopantenna' on page 11 undefined on input line 4
+0.
 
 [11
 
  <./figures/FIG_dipoleantenna.png>]
 
 LaTeX Warning: Reference `fig:pcbcrossantenna' on page 12 undefined on input li
-ne 46.
+ne 47.
 
 <./figures/FIG_pcbcrossantenna.png, id=68, 353.82187pt x 233.87375pt>
 File: ./figures/FIG_pcbcrossantenna.png Graphic file (type png)
 
 <use ./figures/FIG_pcbcrossantenna.png>
 Package pdftex.def Info: ./figures/FIG_pcbcrossantenna.png used on input line 5
-1.
+2.
 (pdftex.def)             Requested size: 247.67361pt x 163.71048pt.
 
 
 LaTeX Warning: Reference `fig:pcbcrossantenna' on page 12 undefined on input li
-ne 53.
+ne 54.
 
 [12 <./figures/FIG_rodantenna.png> <./figures/FIG_loopantenna.png>]
 
 LaTeX Warning: Reference `fig:couplingmodes' on page 13 undefined on input line
- 64.
+ 65.
 
 <./figures/FIG_couplingmodes.png, id=75, 470.25688pt x 216.30812pt>
 File: ./figures/FIG_couplingmodes.png Graphic file (type png)
 
 <use ./figures/FIG_couplingmodes.png>
-Package pdftex.def Info: ./figures/FIG_couplingmodes.png used on input line 67.
+Package pdftex.def Info: ./figures/FIG_couplingmodes.png used on input line 68.
 
-(pdftex.def)             Requested size: 235.12787pt x 108.1538pt.
+(pdftex.def)             Requested size: 329.17757pt x 151.41464pt.
 
 
 LaTeX Warning: Reference `fig:couplingmodes' on page 13 undefined on input line
- 69.
+ 70.
 
-) [13 <./figures/FIG_pcbcrossantenna.png> <./figures/FIG_couplingmodes.png>]
-(main.aux)
+
+LaTeX Warning: Reference `fig:commongrounding' on page 13 undefined on input li
+ne 74.
+
+<./figures/FIG_commongrounding.png, id=76, 602.25pt x 340.77313pt>
+File: ./figures/FIG_commongrounding.png Graphic file (type png)
+
+<use ./figures/FIG_commongrounding.png>
+Package pdftex.def Info: ./figures/FIG_commongrounding.png used on input line 7
+8.
+(pdftex.def)             Requested size: 421.57211pt x 238.53955pt.
+
+Overfull \hbox (76.57211pt too wide) in paragraph at lines 78--79
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig:couplingmodes' on page 13 undefined on input line
+ 80.
+
+[13 <./figures/FIG_pcbcrossantenna.png> <./figures/FIG_couplingmodes.png>]
+
+Package caption Warning: \label without proper \caption on input line 18.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `circ:commonimpedancecoupling' on page 14 undefined on
+ input line 84.
+
+(circuits/CIRC_commonimpedancecoupling.tex) (equations/EQ_udminterference.tex)
+[14 <./figures/FIG_commongrounding.png>]) [15] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 29433 strings out of 493673
- 672843 string characters out of 3141523
- 731053 words of memory out of 3000000
- 32374 multiletter control sequences out of 15000+200000
- 9322 words of font info for 35 fonts, out of 3000000 for 9000
+ 30201 strings out of 493673
+ 683739 string characters out of 3141523
+ 742427 words of memory out of 3000000
+ 33121 multiletter control sequences out of 15000+200000
+ 9776 words of font info for 37 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 64i,14n,56p,10399b,1565s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,15n,82p,10399b,1569s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Andreas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\tcrm1000.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
@@ -1088,9 +1172,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on main.pdf (14 pages, 1605989 bytes).
+Output written on main.pdf (16 pages, 1879795 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
+ 137 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

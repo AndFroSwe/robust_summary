@@ -1,0 +1,19 @@
+\begin{figure}[H]
+\centering
+\begin{circuitikz}[scale=1] \draw
+    (0,0) node[ground] {A}
+        to [short, -*] (0,2)
+        to [european voltage source] (0,6)
+        to [R, R=$R_{out}$] (3,6)
+        to [R, R=$Z_w$] (10,6)
+        to [R, R=$R_{in}$, -*, v=$U_{DM}$] (10,2)
+        -- (10,0) node[ground] {B}
+        to [R, R=$Z_g$, v=$U_{AB}$] (3,0)
+        -- (0,0)
+    (0,2) -- (3,2)
+        to [R, R=$Z_w$] (10,2)
+
+;
+\end{circuitikz}
+\label{circ:commonimpedancecoupling}
+\end{figure}

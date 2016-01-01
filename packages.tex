@@ -5,6 +5,25 @@
 \usepackage[siunitx, european]{circuitikz}
 \usepackage{subcaption}
 \usepackage{mathrsfs}
+\usepackage{framed}
+\usepackage{siunitx}
+\usepackage{amsmath}
+
+% New counter for examples
+\newcounter{examplecounter}
+\setcounter{examplecounter}{1}
+
+%-------------------------------------------------- 
+% Example box package
+\newenvironment{example}
+{
+    \begin{framed}
+    \textbf{Example \arabic{section}.\arabic{examplecounter}\refstepcounter{examplecounter}} \newline
+}
+{
+    \end{framed}
+}
+%-------------------------------------------------- 
 
 % Specific circuitikz settings
 \ctikzset{tripoles/mos style/arrows}
