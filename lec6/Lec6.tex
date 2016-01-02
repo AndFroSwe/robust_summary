@@ -16,6 +16,7 @@ Conducted Emission (CE). The frequencies of these emissions and immunities have
 shifted over the years to a point where both emission and the receptability of
 disturbances are now in the same area. This is described called the
 \textit{Compatibility funnel}.
+
 \subsubsection*{Signal traces}
 A circuit with contains a changing current becomes an antenna, emitting electro
 magnetic waves. There are several types of antenna, three of wich are shown
@@ -55,7 +56,10 @@ return route, causing a loop antenna and therefore reducing its EMC.
 \end{figure}
 The best solution is to not cut in the ground plane, thus leaving the return
 paths as untouched as possible. It is also important to avoid sharp edges in the
-signal trace since this causes reflection and radiation. 
+signal trace since this causes reflection and radiation. The return path of the
+signal is called \textit{Signal Return} and goes through the path with the
+lowest impedance.
+
 \subsubsection*{Coupling modes}
 The voltage differences within a circuit are called \textit{Differential mode}
 voltages. These are normal and cause the current to flow in the closed circuit.
@@ -88,7 +92,7 @@ For the interference, the following equation is true,
 % Equation for common impedance coupling
 \input{./equations/EQ_udminterference.tex}
 \begin{example}
-    For a circuit as in with
+    For a circuit as in Figure~\ref{circ:commonimpedancecoupling} with
     \begin{itemize}
         \item $R_{in}=1\si{\mega\ohm}$
         \item $R_{out}=1\si{\kilo\ohm}$
@@ -100,6 +104,93 @@ For the interference, the following equation is true,
         {\num{1e3}\cdot\num{1e6}}=0.1\si{V}
     \end{flalign*}
 \end{example}
+General measures to reduce EMI in a system is to 
+\begin{enumerate}
+    \item Non-emission devices
+    \item Immune components
+    \item Isolate
+    \item Divert
+    \item Reflect
+    \item Absorb
+\end{enumerate}
+There are several ways to isolate, some which entail using non electrical
+connections, such as \textit{fiber optics} and \textit{opto couplers}. Other
+means of isolation is using an \textit{isolation amplifier} which is a
+differential amplifier amplifying the differential mode voltage, or using an
+\textit{isolation transformer} to galvanically isolate. Ground configuration is
+also important, so \textit{isolating 0V from the box} and \textit{isolating the
+box form earth} are good ways to provide good isolation. Finally,
+\textit{IR} and \textit{radio} are other means to isolate.
+
+\subsubsection*{Zoning and partitioning}
+As stated earlier, splitting ground planes cause antenna behaviour, demonstrated
+in Figure~\ref{fig:splitground}. 
+% Figure displaying a split ground plane and its antenna effects
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{./figures/FIG_splitground.png}
+    \caption{Split ground plane causing antenna behaviour in circuit}
+    \label{fig:splitground}
+\end{figure}
+Rather, one might utilize \textit{partitioning}. This means that the power for
+the digital and analog components are separated by a restricted area where no
+signal traces are allowed, as displayed in Figure~\ref{fig:partitioning}.
+% Partitioning example
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{./figures/FIG_partitioning.png}
+    \caption{Example of partitioning in a PCB.}
+    \label{fig:partitioning}
+\end{figure}
+To reduce the interference of quickly switching digital signals and slower
+analog signals, \textit{zoning} is a good design aid. A \textit{zone} is an
+electromagnetic volume, i.e. an area of a PCB where similat signals are
+gathered. The edges of a zone are called \textit{zone boundaries}. The zone
+boundaries are where interference countermeasures are placed. To reduce coupling
+between zones, \textit{decoupling} measures are used. These might be filters
+such as decoupling capacitors or generic shields. Specifically, having two
+capacitors on the PCB power input is a good way to filter the input. These are
+usually one small 10-100\si{\nano\farad} capacitor for filtering out high
+frequency interference and one larger 10-47\si{\micro\farad} to compensate for
+temporary losses in voltage.
+Figure~\ref{fig:zoneboundary} shows a general picture of a zone boundary.
+% Picture of a zone boundary
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{./figures/FIG_zoneboundary.png}
+    \caption{Function of a zone boundary.}
+    \label{fig:zoneboundary}
+\end{figure}
+Having many zones means having many filters which is expensive and complicated.
+Therefore, combining zones can be preferable. Figure~\ref{fig:zones} displays
+what this could look like.
+% Two horizontal pictures of zoning examples.
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{./figures/FIG_badzone.png}
+        \caption{Bad zoning example.}
+        \label{fig:badzone}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{./figures/FIG_goodzone.png}
+        \caption{Good zoning example.}
+    \end{subfigure}
+    \caption{Examples of zoning. Boxes with crosses symbolize filters.}
+    \label{fig:zones}
+\end{figure}
+On a real PCB, the zoning might look like in Figure~\ref{fig:pcbzoning}
+% Zoning on a PCB
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{./figures/FIG_pcbzoning.png}
+    \caption{Zoning example on a PCB.}
+    \label{fig:pcbzoning}
+\end{figure}
+
+
+
 
 
 
